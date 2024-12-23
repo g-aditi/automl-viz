@@ -1,0 +1,1402 @@
+[
+    {
+        "Classifier id": 601,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 11,
+            "leaf_size": 3,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 602,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 9,
+            "leaf_size": 11,
+            "p": 3,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.935",
+        "Test Score": 0.938
+    },
+    {
+        "Classifier id": 603,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 7,
+            "leaf_size": 4,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.935",
+        "Test Score": 0.930
+    },
+    {
+        "Classifier id": 604,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "leaf_size": 3,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.912",
+        "Test Score": 0.920
+    },
+    {
+        "Classifier id": 605,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 15,
+            "leaf_size": 5,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.937
+    },
+    {
+        "Classifier id": 606,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 108.47689444109196,
+            "tol": 0.015607545365037872,
+            "penalty": "l2",
+            "fit_intercept": "True",
+            "dual": "False",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.934
+    },
+    {
+        "Classifier id": 607,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 20,
+            "leaf_size": 25,
+            "p": 2,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.931
+    },
+    {
+        "Classifier id": 608,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 14,
+            "leaf_size": 9,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.929
+    },
+    {
+        "Classifier id": 609,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.914",
+        "Test Score": 0.917
+    },
+    {
+        "Classifier id": 610,
+        "Classifier type": "dt",
+        "Params chosen": {
+            "max_features": 0.30812393749937617,
+            "max_depth": 6,
+            "min_samples_split": 2,
+            "min_samples_leaf": 2,
+            "criterion": "entropy"
+        },
+        "Cross Validation Score": "0.894",
+        "Test Score": 0.900
+    },
+    {
+        "Classifier id": 611,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 8,
+            "leaf_size": 45,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 612,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 10,
+            "leaf_size": 3,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.931",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 613,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 17,
+            "p": 2,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.941
+    },
+    {
+        "Classifier id": 614,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 8,
+            "leaf_size": 49,
+            "p": 3,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.936",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 615,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 20,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.935",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 616,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 15,
+            "p": 3,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.942
+    },
+    {
+        "Classifier id": 617,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 17,
+            "leaf_size": 33,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.933",
+        "Test Score": 0.932
+    },
+    {
+        "Classifier id": 618,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 3,
+            "p": 2,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.928",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 619,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "leaf_size": 4,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.916",
+        "Test Score": 0.923
+    },
+    {
+        "Classifier id": 620,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 2.9743157809789005,
+            "tol": 1089.2050430167637,
+            "penalty": "l2",
+            "fit_intercept": "False",
+            "dual": "False",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.025",
+        "Test Score": 0.026
+    },
+    {
+        "Classifier id": 621,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "leaf_size": 26,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.909",
+        "Test Score": 0.914
+    },
+    {
+        "Classifier id": 622,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 3,
+            "leaf_size": 22,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.924
+    },
+    {
+        "Classifier id": 623,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "leaf_size": 5,
+            "p": 2,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.918",
+        "Test Score": 0.924
+    },
+    {
+        "Classifier id": 624,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 12,
+            "leaf_size": 25,
+            "p": 3,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.933",
+        "Test Score": 0.940
+    },
+    {
+        "Classifier id": 625,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 15,
+            "leaf_size": 25,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.934
+    },
+    {
+        "Classifier id": 626,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 0.24156267375537058,
+            "tol": 30.454776880518992,
+            "penalty": "l1",
+            "fit_intercept": "False",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.025",
+        "Test Score": 0.026
+    },
+    {
+        "Classifier id": 627,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 17,
+            "leaf_size": 7,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.931",
+        "Test Score": 0.929
+    },
+    {
+        "Classifier id": 628,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 11,
+            "leaf_size": 29,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.938
+    },
+    {
+        "Classifier id": 629,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 19,
+            "p": 3,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.936",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 630,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 20,
+            "leaf_size": 9,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.929
+    },
+    {
+        "Classifier id": 631,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 20.282198181644834,
+            "tol": 1.4661463740515688,
+            "penalty": "l2",
+            "fit_intercept": "False",
+            "dual": "False",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.776",
+        "Test Score": 0.780
+    },
+    {
+        "Classifier id": 632,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 5904.951229157314,
+            "tol": 3315.0204438671994,
+            "penalty": "l2",
+            "fit_intercept": "True",
+            "dual": "True",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.912",
+        "Test Score": 0.912
+    },
+    {
+        "Classifier id": 633,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 20,
+            "leaf_size": 30,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.937
+    },
+    {
+        "Classifier id": 634,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "leaf_size": 20,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.918",
+        "Test Score": 0.914
+    },
+    {
+        "Classifier id": 635,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 3,
+            "p": 2,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.927
+    },
+    {
+        "Classifier id": 636,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 15,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.934
+    },
+    {
+        "Classifier id": 637,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "leaf_size": 45,
+            "p": 1,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.929",
+        "Test Score": 0.931
+    },
+    {
+        "Classifier id": 638,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 18,
+            "leaf_size": 41,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.925",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 639,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 2742.9027134695607,
+            "tol": 2090.0059660363454,
+            "penalty": "l2",
+            "fit_intercept": "False",
+            "dual": "True",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.825",
+        "Test Score": 0.865
+    },
+    {
+        "Classifier id": 640,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 3,
+            "leaf_size": 46,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.926",
+        "Test Score": 0.927
+    },
+    {
+        "Classifier id": 641,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 9,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.933",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 642,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "leaf_size": 33,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.917",
+        "Test Score": 0.918
+    },
+    {
+        "Classifier id": 643,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 18,
+            "p": 3,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.935",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 644,
+        "Classifier type": "dt",
+        "Params chosen": {
+            "max_features": 0.7941391506157186,
+            "max_depth": 2,
+            "min_samples_split": 4,
+            "min_samples_leaf": 2,
+            "criterion": "gini"
+        },
+        "Cross Validation Score": "0.442",
+        "Test Score": 0.453
+    },
+    {
+        "Classifier id": 645,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 16,
+            "leaf_size": 45,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.928",
+        "Test Score": 0.930
+    },
+    {
+        "Classifier id": 646,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 11,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.927
+    },
+    {
+        "Classifier id": 647,
+        "Classifier type": "dt",
+        "Params chosen": {
+            "max_features": 0.48805806411967223,
+            "max_depth": 9,
+            "min_samples_split": 4,
+            "min_samples_leaf": 1,
+            "criterion": "gini"
+        },
+        "Cross Validation Score": "0.915",
+        "Test Score": 0.915
+    },
+    {
+        "Classifier id": 648,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 20,
+            "leaf_size": 14,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.931
+    },
+    {
+        "Classifier id": 649,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 7,
+            "leaf_size": 41,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.931",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 650,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 1.471309007479446,
+            "tol": 3.712778911361623,
+            "penalty": "l2",
+            "fit_intercept": "False",
+            "dual": "False",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.859",
+        "Test Score": 0.871
+    },
+    {
+        "Classifier id": 651,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "leaf_size": 48,
+            "p": 3,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.925
+    },
+    {
+        "Classifier id": 652,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 11,
+            "leaf_size": 3,
+            "p": 3,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.937
+    },
+    {
+        "Classifier id": 653,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 0.8611887407977051,
+            "tol": 114.46913534155722,
+            "penalty": "l2",
+            "fit_intercept": "True",
+            "dual": "True",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.918",
+        "Test Score": 0.918
+    },
+    {
+        "Classifier id": 654,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 14,
+            "p": 1,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.933",
+        "Test Score": 0.932
+    },
+    {
+        "Classifier id": 655,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 9,
+            "leaf_size": 21,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.929",
+        "Test Score": 0.932
+    },
+    {
+        "Classifier id": 656,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 14,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.938",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 657,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 0.003748176508495414,
+            "tol": 10898.06678824864,
+            "penalty": "l2",
+            "fit_intercept": "True",
+            "dual": "True",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.865",
+        "Test Score": 0.893
+    },
+    {
+        "Classifier id": 658,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 8,
+            "leaf_size": 44,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.931",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 659,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 19,
+            "leaf_size": 41,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.929
+    },
+    {
+        "Classifier id": 660,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 20,
+            "leaf_size": 5,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.927",
+        "Test Score": 0.934
+    },
+    {
+        "Classifier id": 661,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "leaf_size": 35,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.926",
+        "Test Score": 0.928
+    },
+    {
+        "Classifier id": 662,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 1,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.913",
+        "Test Score": 0.914
+    },
+    {
+        "Classifier id": 663,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 19,
+            "leaf_size": 10,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 664,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 0.6214454276716128,
+            "tol": 0.00022596766533104635,
+            "penalty": "l1",
+            "fit_intercept": "False",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.914",
+        "Test Score": 0.905
+    },
+    {
+        "Classifier id": 665,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 5,
+            "leaf_size": 34,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.928
+    },
+    {
+        "Classifier id": 666,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.933",
+        "Test Score": 0.930
+    },
+    {
+        "Classifier id": 667,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 14,
+            "leaf_size": 25,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.935",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 668,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "leaf_size": 42,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.928",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 669,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 5,
+            "leaf_size": 37,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.926",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 670,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 16,
+            "leaf_size": 25,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 671,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 7,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.928",
+        "Test Score": 0.931
+    },
+    {
+        "Classifier id": 672,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 12,
+            "leaf_size": 4,
+            "p": 3,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.931",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 673,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 15,
+            "leaf_size": 5,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 674,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 15,
+            "leaf_size": 27,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.938
+    },
+    {
+        "Classifier id": 675,
+        "Classifier type": "dt",
+        "Params chosen": {
+            "max_features": 0.6353289711289308,
+            "max_depth": 10,
+            "min_samples_split": 4,
+            "min_samples_leaf": 2,
+            "criterion": "entropy"
+        },
+        "Cross Validation Score": "0.915",
+        "Test Score": 0.915
+    },
+    {
+        "Classifier id": 676,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 19,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 677,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 12,
+            "leaf_size": 29,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.935",
+        "Test Score": 0.939
+    },
+    {
+        "Classifier id": 678,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 9,
+            "leaf_size": 22,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 679,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 14,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.936",
+        "Test Score": 0.929
+    },
+    {
+        "Classifier id": 680,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 20,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.928
+    },
+    {
+        "Classifier id": 681,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 12,
+            "leaf_size": 7,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 682,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 2,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.910",
+        "Test Score": 0.908
+    },
+    {
+        "Classifier id": 683,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 12,
+            "leaf_size": 5,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.931",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 684,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "chebyshev",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.928",
+        "Test Score": 0.923
+    },
+    {
+        "Classifier id": 685,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 0.0027947132019110724,
+            "tol": 2.7995739269968456,
+            "penalty": "l2",
+            "fit_intercept": "True",
+            "dual": "False",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.748",
+        "Test Score": 0.741
+    },
+    {
+        "Classifier id": 686,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 16,
+            "leaf_size": 47,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.935",
+        "Test Score": 0.937
+    },
+    {
+        "Classifier id": 687,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 11,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.934
+    },
+    {
+        "Classifier id": 688,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 1.689431722284831,
+            "tol": 2.7756327509581944e-05,
+            "penalty": "l2",
+            "fit_intercept": "False",
+            "dual": "True",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.902",
+        "Test Score": 0.901
+    },
+    {
+        "Classifier id": 689,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "leaf_size": 25,
+            "p": 1,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.928",
+        "Test Score": 0.928
+    },
+    {
+        "Classifier id": 690,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 7,
+            "leaf_size": 24,
+            "weights": "uniform",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.937",
+        "Test Score": 0.929
+    },
+    {
+        "Classifier id": 691,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 7.638347148493415e-05,
+            "tol": 259.1218486212303,
+            "penalty": "l2",
+            "fit_intercept": "False",
+            "dual": "True",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.477",
+        "Test Score": 0.498
+    },
+    {
+        "Classifier id": 692,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 1,
+            "leaf_size": 34,
+            "weights": "uniform",
+            "algorithm": "kd_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.918",
+        "Test Score": 0.918
+    },
+    {
+        "Classifier id": 693,
+        "Classifier type": "dt",
+        "Params chosen": {
+            "max_features": 0.6525372757006851,
+            "max_depth": 3,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "criterion": "entropy"
+        },
+        "Cross Validation Score": "0.735",
+        "Test Score": 0.740
+    },
+    {
+        "Classifier id": 694,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 7,
+            "p": 1,
+            "weights": "distance",
+            "algorithm": "brute",
+            "metric": "minkowski",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.937
+    },
+    {
+        "Classifier id": 695,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "algorithm": "brute",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.915",
+        "Test Score": 0.915
+    },
+    {
+        "Classifier id": 696,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 12,
+            "leaf_size": 11,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.936
+    },
+    {
+        "Classifier id": 697,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 13,
+            "leaf_size": 15,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.934",
+        "Test Score": 0.935
+    },
+    {
+        "Classifier id": 698,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 4,
+            "leaf_size": 43,
+            "weights": "distance",
+            "algorithm": "kd_tree",
+            "metric": "manhattan",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.930",
+        "Test Score": 0.933
+    },
+    {
+        "Classifier id": 699,
+        "Classifier type": "knn",
+        "Params chosen": {
+            "n_neighbors": 15,
+            "leaf_size": 41,
+            "weights": "distance",
+            "algorithm": "ball_tree",
+            "metric": "euclidean",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.929",
+        "Test Score": 0.943
+    },
+    {
+        "Classifier id": 700,
+        "Classifier type": "logreg",
+        "Params chosen": {
+            "C": 0.3822572611102416,
+            "tol": 1.0887905652807821e-05,
+            "penalty": "l1",
+            "fit_intercept": "True",
+            "class_weight": "balanced",
+            "_scale": "True"
+        },
+        "Cross Validation Score": "0.932",
+        "Test Score": 0.933
+    }
+]
