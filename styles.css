@@ -1,0 +1,172 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    height: 90%;
+}
+
+.panel-header {
+    background-color: #c8c8c8;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.left-panel, .right-panel, .panel-a, .panel-b, .panel-b1, .panel-b2 {
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+.left-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-right: 2vw;
+}
+
+.panel-a {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.panel-b {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.panel-b1 {
+    flex: 2;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.panel-b2 {
+    flex: 1.5;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+#panel-b1-svg {
+    width: 300px;
+    height: 200px;
+}
+
+.donutsvg {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#panel-b1-histsvg {
+    width: 310px;
+    height: 100px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#panel-b2-svg {
+    width: 300px;
+    height: 200px;
+}
+
+.right-panel {
+    flex: 3;
+    background-color: #fff;
+    width: 60vw;
+    margin-left: 2vw;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#dataset-dropdown {
+    flex: 1;
+    width: 13vw;
+    padding-right: 60px;
+    padding: 1px;
+    margin-left: 7px;
+}
+
+.upload-btn-wrapper {
+    flex: 1;
+    margin-left: 30px;
+    overflow: hidden;
+    display: inline-block;
+}
+  
+.btn {
+    border: 1px solid #000;
+    color: #000;
+    background-color: #f8f8f8;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 13px;
+    width: 5vw;
+}
+  
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.collapsibles {
+    margin-top: 2vh;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 1vh;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 1vh;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .collapsible:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+
+
+.plot-div {
+    width: 300px;
+    height: 160px;
+    flex: 1;
+}
+
+#plot-container {
+    display: flex;
+    flex-direction: row;
+}

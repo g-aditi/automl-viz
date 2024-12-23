@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>AutoML-Viz</title>
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="left-panel">
+            <div class="panel-a">
+                <div class="panel-header">Datasets</div>
+                <form id="datasets-subpanel">
+                    <div class="form-container">
+                        <select id="dataset-dropdown">
+                            <option value="dry-bean-dataset">dry-bean-dataset</option>
+                            <option value="pollution-dataset">pollution-dataset</option>
+                        </select>
+                        <div class="upload-btn-wrapper">
+                            <button class="btn">+ Upload</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="panel-b">
+                <div class="panel-header">Data Overview</div>
+                <div class="panel-b1">
+                    <div class="panel-header"></div>
+                    <svg id='panel-b1-svg'></svg>
+                    <svg class="donutsvg" id="donut1"></svg>
+                    <svg class="donutsvg" id="donut2"></svg>
+                    <svg id='panel-b1-histsvg'></svg>
+                </div>
+                <div class="panel-b2">
+                    <div class="panel-header">
+                        Top <input id='classifierInput' value='6' type='number' max='7' min='1' size='1'></input> &emsp; Classifiers
+                    </div>
+                    <svg id='panel-b2-svg'></svg>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="panel-header">Profiler</div>
+            <div class="collapsibles">
+                <div class="heatmap-container">
+                    <button type="button" class="collapsible" id="collapsible1">Correlation Heatmap</button>
+                    <div id="heat-plot"></div>
+                </div>
+                <div class="algorithm-container">
+                    <button type="button" class="collapsible" id="collapsible2">Algorithms</button>
+                    <div id="charts-container"></div>
+                </div>
+                <div class="hyper-partitions-container">
+                    <button type="button" class="collapsible" id="collapsible3">HyperPartitions</button>
+                    <div id="grid-container" style="display: none;"></div>
+                </div>
+                <div class="hyperparams-container">
+                    <button type="button" class="collapsible" id="collapsible4">HyperParameters</button>
+                    <div id="plot-container" style="display: flex;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
