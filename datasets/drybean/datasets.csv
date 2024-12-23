@@ -1,0 +1,2 @@
+"id","name","class_column","train_path","test_path","description","n_examples","k_classes","d_features","majority","size_kb"
+"1","c3e6ca137a5e1f259c6d04a450379fc4","Class","./datasets/Dry_Bean_Dataset.csv","null","c3e6ca137a5e1f259c6d04a450379fc4","13611","7","22","0.2605245757108221","1851"
