@@ -63,8 +63,4 @@ Users of this tool will be able to:
 Distribution of hyperparameters is presented as area plots below each scatter plot.
 6. A correlation heatmap shows the correlation between features of the dataset selected from the dropdown.
 
-## Project Timeline
-
-TBD
-
 This repo is an extension of ATMSeer based on the contents of its [research paper](https://arxiv.org/pdf/1902.05009v1.pdf).
